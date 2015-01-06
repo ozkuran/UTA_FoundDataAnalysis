@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1420523528339.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "70C17B9",
+    "lastKnownWriteTime" : 27303364806049904,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "animaldata",
+        "contentUrl" : "content?title=animaldata&file=f6984152eb544013bf7fc0baffa899a8.htm",
+        "displayedObservations" : "473",
+        "displayedVariables" : 24,
+        "totalObservations" : "473",
+        "variables" : "24"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
