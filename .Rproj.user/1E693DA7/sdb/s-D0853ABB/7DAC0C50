@@ -1,0 +1,17 @@
+{
+    "contents" : "overtime <- c(10, 2, 6, 12, 14, 15, 15, 24, 15, 25, 3, 12)\nfivenum(overtime)\nIQR(overtime)\nmedian(overtime)\nmean(overtime)\nrange(overtime)",
+    "created" : 1420519487086.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2780765964",
+    "id" : "7DAC0C50",
+    "lastKnownWriteTime" : 1420520029,
+    "path" : "D:/GitHub/UTA_FoundDataAnalysis/001.R",
+    "project_path" : "001.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

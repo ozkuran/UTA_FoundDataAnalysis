@@ -1,0 +1,6 @@
+overtime <- c(10, 2, 6, 12, 14, 15, 15, 24, 15, 25, 3, 12)
+fivenum(overtime)
+IQR(overtime)
+median(overtime)
+mean(overtime)
+range(overtime)
