@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1420583518713.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9D1622FC",
+    "lastKnownWriteTime" : 7741240722073845761,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "moreThan60percent",
+        "contentUrl" : "content?title=moreThan60percent&file=0385ba9d416d4bb290aa95c5ab4cb619.htm",
+        "displayedObservations" : 2,
+        "displayedVariables" : 19,
+        "totalObservations" : 2,
+        "variables" : 18
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

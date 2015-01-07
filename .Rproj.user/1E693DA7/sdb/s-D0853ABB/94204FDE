@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1420582560682.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "94204FDE",
+    "lastKnownWriteTime" : 18296290105622625,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "bulldata",
+        "contentUrl" : "content?title=bulldata&file=171a992c3d6a4d23979f5a1681de7dd5.htm",
+        "displayedObservations" : 38,
+        "displayedVariables" : 18,
+        "totalObservations" : 38,
+        "variables" : 18
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

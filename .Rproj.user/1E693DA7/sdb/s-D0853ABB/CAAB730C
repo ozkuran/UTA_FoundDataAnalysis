@@ -1,12 +1,12 @@
 {
-    "contents" : "library(SDSFoundations) \nanimaldata <- AnimalData\nhead(animaldata)\ntable(animaldata$Sex)\n\nplot(animaldata$Sex, main = 'Animal Gender Count', xlab = 'Genders' , ylab = 'Count');\n\nadultAnimals <- animaldata[animaldata$Age.Intake >= 1, ]\n\nadultDogs <- adultAnimals[adultAnimals$Animal.Type == 'Dog', ]\nadultCats <- adultAnimals[adultAnimals$Animal.Type == 'Cat', ]\n\nhist(adultDogs$Weight, main = 'Adult Dog Weight', xlab = 'Weight' , ylab = 'Count');\nhist(adultCats$Weight, main = 'Adult Cat Weight', xlab = 'Weight' , ylab = 'Count');\n\nmean(adultCats$Weight)\n\nsd(adultCats$Weight)\n\n1-pnorm(2.3)\n\nmean(adultDogs$Weight)\n\nsd(adultDogs$Weight)\n\n\ndogs <- animaldata[animaldata$Animal.Type == 'Dog', ]\nintakeDog <- dogs$Intake.Type\ntable(intakeDog)\n\ndogStray <- table(intakeDog)[2]\ndogTotal <- sum(table(intakeDog))\ndogStray / dogTotal\n\n\nsurDogs <- dogs[dogs$Intake.Type == \"Owner Surrender\", ] \nreturnDogs <- surDogs[surDogs$Outcome.Type == \"Return to Owner\", ] \n\nmean(returnDogs$Days.Shelter)\n\nx <- 6.7-(1.5*1.1)\n\n1 - pnorm(4.5,6.7,1.1)\n\npnorm(8.79,6.7,1.1) - pnorm(5.38,6.7,1.1)",
+    "contents" : "#Please use MOOCs for learning \n\nlibrary(SDSFoundations) \nanimaldata <- AnimalData\nhead(animaldata)\ntable(animaldata$Sex)\n\nplot(animaldata$Sex, main = 'Animal Gender Count', xlab = 'Genders' , ylab = 'Count');\n\nadultAnimals <- animaldata[animaldata$Age.Intake >= 1, ]\n\nadultDogs <- adultAnimals[adultAnimals$Animal.Type == 'Dog', ]\nadultCats <- adultAnimals[adultAnimals$Animal.Type == 'Cat', ]\n\nhist(adultDogs$Weight, main = 'Adult Dog Weight', xlab = 'Weight' , ylab = 'Count');\nhist(adultCats$Weight, main = 'Adult Cat Weight', xlab = 'Weight' , ylab = 'Count');\n\nmean(adultCats$Weight)\n\nsd(adultCats$Weight)\n\n1-pnorm(2.3)\n\nmean(adultDogs$Weight)\n\nsd(adultDogs$Weight)\n\n\ndogs <- animaldata[animaldata$Animal.Type == 'Dog', ]\nintakeDog <- dogs$Intake.Type\ntable(intakeDog)\n\ndogStray <- table(intakeDog)[2]\ndogTotal <- sum(table(intakeDog))\ndogStray / dogTotal\n\n\nsurDogs <- dogs[dogs$Intake.Type == \"Owner Surrender\", ] \nreturnDogs <- surDogs[surDogs$Outcome.Type == \"Return to Owner\", ] \n\nmean(returnDogs$Days.Shelter)\n\nx <- 6.7-(1.5*1.1)\n\n1 - pnorm(4.5,6.7,1.1)\n\npnorm(8.79,6.7,1.1) - pnorm(5.38,6.7,1.1)",
     "created" : 1420526641947.000,
-    "dirty" : true,
+    "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "275899015",
+    "hash" : "1573132514",
     "id" : "CAAB730C",
-    "lastKnownWriteTime" : 1420528887,
+    "lastKnownWriteTime" : 1420582968,
     "path" : "D:/GitHub/UTA_FoundDataAnalysis/002.Lab.R",
     "project_path" : "002.Lab.R",
     "properties" : {

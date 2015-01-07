@@ -1,3 +1,5 @@
+#Please use MOOCs for learning 
+
 library(SDSFoundations) 
 animaldata <- AnimalData
 head(animaldata)
@@ -38,4 +40,8 @@ returnDogs <- surDogs[surDogs$Outcome.Type == "Return to Owner", ]
 
 mean(returnDogs$Days.Shelter)
 
+x <- 6.7-(1.5*1.1)
+
 1 - pnorm(4.5,6.7,1.1)
+
+pnorm(8.79,6.7,1.1) - pnorm(5.38,6.7,1.1)

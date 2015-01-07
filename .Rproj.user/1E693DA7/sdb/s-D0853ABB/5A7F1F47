@@ -1,0 +1,17 @@
+{
+    "contents" : "library(SDSFoundations)\nanimaldata <- AnimalData\ntopTenAdopted <- subset(animaldata[1:10,], animaldata$Outcome.Type=='Adoption')\ntopTenAdopted\nanimalOS <-  subset(animaldata ,animaldata$Intake.Type=='Owner Surrender')\nanimalOS[1,]\n\n\n#Find the number of animals that were adopted\ntable(animaldata$Outcome.Type)\n\n#Pull out only adopted animals\nadopted <- animaldata[animaldata$Outcome.Type==\"Adoption\",]\n\n#Pull out just the days in shelter for the adopted animals\ndaystoadopt <- adopted$Days.Shelter\n\n#Visualize and describe this variable\nhist(daystoadopt)\nfivenum(daystoadopt)\nmean(daystoadopt)\nsd(daystoadopt)\nwhich(animaldata$Days.Shelter==max(daystoadopt))\n\n\nmedian(daystoadopt)\nrange(daystoadopt)\n\nanimaldata[425,]",
+    "created" : 1420582541424.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "674633762",
+    "id" : "5A7F1F47",
+    "lastKnownWriteTime" : 1420524733,
+    "path" : "D:/GitHub/UTA_FoundDataAnalysis/002.Prelab.R",
+    "project_path" : "002.Prelab.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : "#Please use MOOCs for learning \n\nlibrary(SDSFoundations)\nbull <- BullRiders\n\ntopTenRider <- subset(bull[1:10,], bull$YearsPro>10)\n\nlowestBuckout <- subset(bull[which.min(bull$BuckOuts),])\n\n\n# Visualize and describe the first variable of interest \nhist(bull$RidePer)\nfivenum(bull$RidePer)\nmean(bull$RidePer)\nsd(bull$RidePer)\n\n# Visualize and describe the second variable of interest \nhist(bull$Top10)\nfivenum(bull$Top10)\nmean(bull$Top10)\nsd(bull$Top10)\n\n# Create a scatterplot\nplot(bull$RidePer,bull$Top10)\n\ncor(bull$Rides,bull$Top10)\n\n\n# Add line of best fit\nabline(lm(bull$Top10~bull$RidePer))\n\n# Calculate the correlation coefficient\ncor(bull$RidePer,bull$Top10)\n\n# Create a correlation matrix  \nvars <- c(\"Top10\", \"RidePer\")\ncor(bull[,vars])\n\nmean(bull$RidePer)\n\n\nmoreThan60percent <- subset(bull, bull$RidePer>=0.60)\n\n\nwhich(bull$Top10==5 & bull$RidePer==.53)",
+    "created" : 1420582160600.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1051976802",
+    "id" : "FEC05535",
+    "lastKnownWriteTime" : 1420584083,
+    "path" : "D:/GitHub/UTA_FoundDataAnalysis/003.Prelab.R",
+    "project_path" : "003.Prelab.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
