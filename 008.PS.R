@@ -63,5 +63,7 @@ se4 <- sig4/sqrt(n4)
 
 ci4 <- round(mu4 + c(-1,1)*se4*c4,3)
 
+Q4upperBound <- mu4 + se4*c4
+
 c4b <- round(qt(.975,df=n4-1),3)
 ci4b <- round(mu4 + c(-1,1)*se4*c4b,3)
